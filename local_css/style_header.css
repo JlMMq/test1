@@ -3,6 +3,7 @@ header{
     font-family: Arial, Helvetica, sans-serif;
 }
 .h1_bckgrnd{
+    width: 100vw;
     background-color: #4270A2;
     font-size: 18px;
 }
@@ -29,7 +30,6 @@ header{
     flex-wrap: wrap;
 }
 #h1_itm{
-    display: flex;
     padding: 5px 20px 5px 20px;
 }
 #h1_redes a{
@@ -61,16 +61,15 @@ header{
     padding: 0px 30px 0px 0px;
 }
 #h2_logo img{
-    height: 70px;
+    height: 75px;
+
 }
 #h2_menu{
     display: flex;
     padding: 0px 20px 0px 20px;
     flex-wrap: wrap;
 }
-#h2_itm{
-    display: flex;
-}
+
 #h2_menu a{
     padding: 25px 35px 25px 35px;
 }
@@ -83,4 +82,13 @@ header{
 #h2_menu a:hover {
     color: white;
     background-color:rgb(77, 77, 77);
+}
+
+#h2_itm{
+    text-decoration: none;
+    color: black;
+}
+#h2_itm a{
+    text-decoration: none;
+    color: black;
 }
