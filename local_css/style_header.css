@@ -1,0 +1,86 @@
+header{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h1_bckgrnd{
+    background-color: #4270A2;
+    font-size: 18px;
+}
+
+#head_1{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 10px 30px 10px 0px;
+}
+#h1_redes{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+#h1_menu{
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    flex-wrap: wrap;
+}
+#h1_itm{
+    display: flex;
+    padding: 5px 20px 5px 20px;
+}
+#h1_redes a{
+    padding: 0px 5px 0px 5px;
+}
+#h1_redes a:link {
+    color: white
+}
+#h1_redes a:visited {
+    color: white
+}
+#h1_redes a:hover {
+    color: rgb(77, 77, 77);
+}
+
+
+.h2_bckgrnd{
+    background-color: white;
+    font-size: 18px;
+}
+#head_2{
+    width: 70%;
+    margin: auto;
+    color:rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 0px 30px 0px 0px;
+}
+#h2_logo img{
+    height: 70px;
+}
+#h2_menu{
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    flex-wrap: wrap;
+}
+#h2_itm{
+    display: flex;
+}
+#h2_menu a{
+    padding: 25px 35px 25px 35px;
+}
+#h2_menu a:link {
+    color: black
+}
+#h2_menu a:visited {
+    color: black
+}
+#h2_menu a:hover {
+    color: white;
+    background-color:rgb(77, 77, 77);
+}
